@@ -1,0 +1,30 @@
+.product-card {
+  max-width: 295px;
+  padding: 25px;
+  background: var(--white-color);
+  box-shadow: 0px 0px 16px rgba(184, 180, 176, 0.5);
+  border-radius: 25px;
+  &__title {
+    min-height: 85px;
+    font-family: var(--orelega-one-font);
+    font-weight: var(--font-regular);
+    font-size: var(--fz-3);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--dark-main-color);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__img {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    img {
+      max-width: 248px;
+      max-height: 171px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  }
+}

@@ -65,19 +65,415 @@
 	</header>
 
 	<!-- ========== Main ========== -->
-	<main class="main"  style="height: 100vh;">
+	<main class="main">
 		<div class="main-wrapper">
 			<div class="container">
 				<div class="main-top">
-
+					<h1 class="main-top__title">Замороженные ягоды в Израиле</h1>
+					<h2 class="main-top__subtitle">Доставка на дом</h2>
 				</div>
 
 				<!-- ========== Products ========== -->
 				<section class="main-content products">
 					<div class="products-tabs">
 						<ul class="products-tabs__list">
-
+							<li class="products-tabs__list-item">
+								<button class="active" data-product-type="all">Все продукты</button>
+							</li>
+							<li class="products-tabs__list-item">
+								<button data-product-type="berries">Ягоды</button>
+							</li>
+							<li class="products-tabs__list-item">
+								<button data-product-type="fruit">Фрукты</button>
+							</li>
+							<li class="products-tabs__list-item">
+								<button data-product-type="superfood">Суперфуд</button>
+							</li>
 						</ul>
+					</div>
+
+					<div class="products-wrapper">
+						<div class="products-catalog">
+							<article class="product-card" data-sale data-product-type="berries">
+								<h2 class="product-card__title">Малина замороженная Премиум</h2>
+								<div class="product-card__img">
+									<img src="./img/products/raspberry.jpg" alt="raspberry">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">      
+										<div class="product-card__price-new">46.00₪</div>
+										<div class="product-card__price-old">52.00₪</div>
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="fruit">
+								<h2 class="product-card__title">Банан замороженный</h2>
+								<div class="product-card__img">
+									<img src="./img/products/banana.jpg" alt="banana">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										39.00₪
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="berries">
+								<h2 class="product-card__title">Микс 5-ти ягод замороженный</h2>
+								<div class="product-card__img">
+									<img src="./img/products/mix-5berries.jpg" alt="5berries">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										41.00₪
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="superfood">
+								<h2 class="product-card__title">Скир —  исландский йогурт</h2>
+								<div class="product-card__img">
+									<img src="./img/products/skyr.jpg" alt="skyr">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										41.00₪
+									</div>
+									<div class="product-card__price-weight">за 250 г</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="berries">
+								<h2 class="product-card__title">Вишня замороженная</h2>
+								<div class="product-card__img">
+									<img src="./img/products/cherry.jpg" alt="cherry">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										41.00₪
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-sale data-product-type="berries">
+								<h2 class="product-card__title">Малина замороженная Премиум</h2>
+								<div class="product-card__img">
+									<img src="./img/products/raspberry.jpg" alt="raspberry">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">      
+										<div class="product-card__price-new">46.00₪</div>
+										<div class="product-card__price-old">52.00₪</div>
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="fruit">
+								<h2 class="product-card__title">Банан замороженный</h2>
+								<div class="product-card__img">
+									<img src="./img/products/banana.jpg" alt="banana">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										39.00₪
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="berries">
+								<h2 class="product-card__title">Микс 5-ти ягод замороженный</h2>
+								<div class="product-card__img">
+									<img src="./img/products/mix-5berries.jpg" alt="5berries">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										41.00₪
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="superfood">
+								<h2 class="product-card__title">Скир —  исландский йогурт</h2>
+								<div class="product-card__img">
+									<img src="./img/products/skyr.jpg" alt="skyr">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										41.00₪
+									</div>
+									<div class="product-card__price-weight">за 250 г</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="berries">
+								<h2 class="product-card__title">Вишня замороженная</h2>
+								<div class="product-card__img">
+									<img src="./img/products/cherry.jpg" alt="cherry">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										41.00₪
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-sale data-product-type="berries">
+								<h2 class="product-card__title">Малина замороженная Премиум</h2>
+								<div class="product-card__img">
+									<img src="./img/products/raspberry.jpg" alt="raspberry">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">      
+										<div class="product-card__price-new">46.00₪</div>
+										<div class="product-card__price-old">52.00₪</div>
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="fruit">
+								<h2 class="product-card__title">Банан замороженный</h2>
+								<div class="product-card__img">
+									<img src="./img/products/banana.jpg" alt="banana">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										39.00₪
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="berries">
+								<h2 class="product-card__title">Микс 5-ти ягод замороженный</h2>
+								<div class="product-card__img">
+									<img src="./img/products/mix-5berries.jpg" alt="5berries">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										41.00₪
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="superfood">
+								<h2 class="product-card__title">Скир —  исландский йогурт</h2>
+								<div class="product-card__img">
+									<img src="./img/products/skyr.jpg" alt="skyr">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										41.00₪
+									</div>
+									<div class="product-card__price-weight">за 250 г</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+
+							<article class="product-card" data-product-type="berries">
+								<h2 class="product-card__title">Вишня замороженная</h2>
+								<div class="product-card__img">
+									<img src="./img/products/cherry.jpg" alt="cherry">
+								</div>
+								<div class="product-card__price-wrapper">
+									<div class="product-card__price">
+										41.00₪
+									</div>
+									<div class="product-card__price-weight">за 1 кг</div>
+								</div>
+								<div class="product-card__bottom">
+									<div class="product-card__counter">
+										<button class="product-card__counter-minus">-</button>
+										<div class="product-card__counter-num">2</div>
+										<button class="product-card__counter-plus">+</button>
+									</div>
+									<button class="btn product-card__basket">В корзину</button>
+								</div>
+							</article>
+						</div>
+
+						<div class="products-basket">
+							<div class="products-basket__title">Корзина</div>
+							<div class="products-basket__content">
+								<!-- <div class="products-basket__text-empty">Корзина пуста</div> -->
+								<ul class="products-basket__goods">
+									<li class="products-basket__goods-item">
+										<button class="products-basket__goods-delete">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M20.25 5.25L3.75 5.25001" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M9.75 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M14.25 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M8.25 2.25H15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M18.75 5.25V19.5C18.75 19.6989 18.671 19.8897 18.5303 20.0303C18.3897 20.171 18.1989 20.25 18 20.25H6C5.80109 20.25 5.61032 20.171 5.46967 20.0303C5.32902 19.8897 5.25 19.6989 5.25 19.5V5.25" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>												
+										</button>
+										<div class="products-basket__goods-content">
+											<p class="products-basket__goods-title">Свекла + витамин В12 Замороженная</p>
+											<p class="products-basket__goods-price">5 x 23.00₪</p>
+										</div>
+									</li>
+									<li class="products-basket__goods-item">
+										<button class="products-basket__goods-delete">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M20.25 5.25L3.75 5.25001" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M9.75 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M14.25 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M8.25 2.25H15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M18.75 5.25V19.5C18.75 19.6989 18.671 19.8897 18.5303 20.0303C18.3897 20.171 18.1989 20.25 18 20.25H6C5.80109 20.25 5.61032 20.171 5.46967 20.0303C5.32902 19.8897 5.25 19.6989 5.25 19.5V5.25" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>												
+										</button>
+										<div class="products-basket__goods-content">
+											<p class="products-basket__goods-title">Моринга замороженная органическая</p>
+											<p class="products-basket__goods-price">1 x 26.00₪</p>
+										</div>
+									</li>
+									<li class="products-basket__goods-item">
+										<button class="products-basket__goods-delete">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M20.25 5.25L3.75 5.25001" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M9.75 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M14.25 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M8.25 2.25H15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M18.75 5.25V19.5C18.75 19.6989 18.671 19.8897 18.5303 20.0303C18.3897 20.171 18.1989 20.25 18 20.25H6C5.80109 20.25 5.61032 20.171 5.46967 20.0303C5.32902 19.8897 5.25 19.6989 5.25 19.5V5.25" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>												
+										</button>
+										<div class="products-basket__goods-content">
+											<p class="products-basket__goods-title">Вишня замороженная</p>
+											<p class="products-basket__goods-price">2 x 43.00₪</p>
+										</div>
+									</li>
+								</ul>
+								<div class="products-basket__fullprice">
+									<div class="products-basket__fullprice-text">Подытог:</div>
+									<div class="products-basket__fullprice-num">184.00₪</div>
+								</div>
+								<div class="products-basket__btns">
+									<button class="btn products-basket__btns-pay">Оплатить</button>
+									<button class="btn btn-outline products-basket__btns-openbasket">Корзина</button>
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
 			</div>

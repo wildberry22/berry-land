@@ -4,6 +4,7 @@
   padding: 20px 0;
   background-color: var(--main-color);
   box-shadow: 0px 4px 20px rgba(184, 180, 176, 0.8);
+  z-index: var(--z-fixed);
 }
 .navigation {
   margin: 0 auto;
