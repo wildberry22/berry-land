@@ -11,7 +11,7 @@
     font-size: var(--fz-3);
     line-height: 1.1;
     letter-spacing: 0.02em;
-    color: var(--dark-main-color);
+    color: var(--main-color-2);
     text-align: center;
     margin-bottom: 20px;
   }
@@ -19,12 +19,92 @@
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
+    margin-bottom: 15px;
     img {
       max-width: 248px;
       max-height: 171px;
       width: 100%;
       object-fit: cover;
-      border-radius: 5px;
+      border-radius: 10px;
     }
+  }
+  &__price-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+    letter-spacing: 0.02em;
+    margin-bottom: 15px;
+  }
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  &__price-new {
+    font-weight: var(--font-bold);
+    font-size: var(--fz-4);
+    color: var(--main-color-3);
+  }
+  &__price-old {
+    position: relative;
+    &::before {
+      content: '';
+      height: 3px;
+      width: 118%;
+      border-radius: 1px;
+      background-color: var(--red-color);
+      opacity: 0.7;
+      position: absolute;
+      top: 50%;
+      left: -6px;
+      right: -6px;
+      transform: translateY(-50%);
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  &__counter {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #343434;
+    border-radius: 16px;
+    &-minus,
+    &-plus {
+      width: 36px;
+      font-family: var(--nunito-font);
+      font-size: var(--fz-4);
+      line-height: 1;
+      border: none;
+      background: none;
+      color: var(--dark-color);
+      transition: .2s ease;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(0,0,0,.05);
+      }
+    }
+    &-minus {
+      border-radius: 16px 0 0 16px;
+      padding: 9px 12px 11px;
+    }
+    &-plus {
+      border-radius: 0 16px 16px 0;
+      padding: 10px 12px;
+    }
+    &-num {
+      font-size: var(--fz-5);
+      color: var(--dark-color);
+    }
+  }
+  &__basket {
+    padding: 10px;
+    background: var(--main-color-2);
   }
 }

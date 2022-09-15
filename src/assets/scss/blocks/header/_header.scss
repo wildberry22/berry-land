@@ -19,7 +19,7 @@
       margin-bottom: 10px;
       &.active {
         .navigation-list__link {
-          color: var(--dark-main-color);
+          color: var(--main-color-2);
           &::after {
             transform: scaleX(1);
           }
@@ -76,7 +76,7 @@
         transform-origin: right; 
       }
       &:hover {
-        color: var(--dark-main-color);
+        color: var(--main-color-2);
         &::after {
           transform: scaleX(1);
           transform-origin: left; 
