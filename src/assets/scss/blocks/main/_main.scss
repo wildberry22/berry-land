@@ -3,8 +3,48 @@
   position: relative;
   margin-bottom: 100px; 
   background: url('../img/bg/main-bg.jpg') top center/contain no-repeat;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 37%;
+    left: 0;
+    height: 340px;
+    width: 200px;
+    background: url('../img/bg/bg-1.jpg') center center/contain no-repeat;
+    z-index: -1;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 250px;
+    height: 480px;
+    background: url('../img/bg/bg-2.jpg') center center/contain no-repeat;
+    z-index: -1;
+  }
   &-wrapper {
     position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 68%;
+      left: 0;
+      width: 342px;
+      height: 427px;
+      background: url('../img/bg/bg-3.jpg') center center/contain no-repeat;
+      z-index: -1;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      top: 78%;
+      right: 0;
+      width: 315px;
+      height: 480px;
+      background: url('../img/bg/bg-4.jpg') center center/contain no-repeat;
+      z-index: -1;
+    }
   }
   &-top {
     text-align: center;

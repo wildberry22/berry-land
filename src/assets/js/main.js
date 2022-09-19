@@ -2,7 +2,6 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-
   // header adaptive menu
   const navigationBtnEl = document.querySelector('.navigation__btn');
   const navigationEl = document.querySelector('.navigation-list--mobile');
