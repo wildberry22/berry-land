@@ -44,3 +44,22 @@ body {
     background: var(--main-color-3);
   }
 }
+.shadow {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.8);
+  z-index: 100;
+  transition: .4s ease-in-out;
+  &.active {
+    opacity: 1;
+    visibility: initial;
+    transition: .3s ease-in-out;
+  }
+}

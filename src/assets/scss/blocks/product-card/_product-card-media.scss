@@ -51,3 +51,37 @@
     padding: 25px;
   }
 }
+
+@media screen and (max-width: 568px) {
+  .product-card {
+    padding: 20px 14px 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .product-card__title {
+    min-height: 68px;
+    margin-bottom: 10px;
+  }
+  .product-card__title a {
+    --fz-3: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .product-card {
+    padding: 25px;
+  }
+  .product-card__title {
+    max-width: initial;
+  }
+  .product-card__title a {
+    --fz-3: 1.625rem;
+  }
+  .product-card[data-sale]::before {
+    top: -3px;
+    left: -53px;
+    height: 30px;
+    font-size: 15px;
+  }
+}

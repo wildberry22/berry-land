@@ -1,4 +1,4 @@
-
+import menu from './modules/menu.js';
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -16,4 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
       navigationEl.classList.remove('active');
     }
   }, 100);
+
+  // menu
+  if(window.innerWidth < 768) {
+    menu('.navigation__basket', '.products-basket', '.products-basket__close-btn');
+  }
+
 });

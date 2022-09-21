@@ -61,6 +61,7 @@
     position: relative;
     border: none;
     background: none;
+    user-select: none;
     cursor: pointer;
     &-num {
       position: absolute;

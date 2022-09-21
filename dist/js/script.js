@@ -90,8 +90,12 @@
 /*!*******************************!*\
   !*** ./src/assets/js/main.js ***!
   \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _modules_menu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/menu.js */ "./src/assets/js/modules/menu.js");
 
 document.addEventListener("DOMContentLoaded", () => {
   // header adaptive menu
@@ -106,8 +110,52 @@ document.addEventListener("DOMContentLoaded", () => {
       navigationBtnEl.classList.remove('active');
       navigationEl.classList.remove('active');
     }
-  }, 100);
+  }, 100); // menu
+
+  if (window.innerWidth < 768) {
+    Object(_modules_menu_js__WEBPACK_IMPORTED_MODULE_0__["default"])('.navigation__basket', '.products-basket', '.products-basket__close-btn');
+  }
 });
+
+/***/ }),
+
+/***/ "./src/assets/js/modules/menu.js":
+/*!***************************************!*\
+  !*** ./src/assets/js/modules/menu.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return menu; });
+function menu(openBtnSelector, basketSelector, closeBtnSelector) {
+  const openBtnEl = document.querySelectorAll(openBtnSelector);
+  const basketEl = document.querySelector(basketSelector);
+  const closeBtnEl = document.querySelectorAll(closeBtnSelector);
+  const shadowEl = document.querySelector('.shadow');
+  openBtnEl.forEach(openBtn => {
+    openBtn.addEventListener('click', () => {
+      basketEl.classList.add('active');
+      shadowEl.classList.add('active');
+      document.querySelector('body').style.overflowY = 'hidden';
+    });
+  });
+  closeBtnEl.forEach(closeBtn => {
+    closeBtn.addEventListener('click', () => {
+      basketEl.classList.remove('active');
+      shadowEl.classList.remove('active');
+      document.querySelector('body').style.overflowY = '';
+    });
+  });
+  setInterval(() => {
+    if (window.innerWidth > 768 && shadowEl.classList.contains('active')) {
+      basketEl.classList.remove('active');
+      shadowEl.classList.remove('active');
+      document.querySelector('body').style.overflowY = '';
+    }
+  }, 100);
+}
 
 /***/ })
 

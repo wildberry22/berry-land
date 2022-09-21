@@ -75,12 +75,37 @@
   &-basket {
     position: sticky;
     top: 120px;
+    max-height: 70vh;
     max-width: 295px;
     width: 100%;
     background: var(--white-color);
     border: 2px solid var(--main-color);
     border-radius: 24px;
     padding: 24px;
+    overflow-y: auto;
+    scrollbar-color: hsl(117, 45%, 61%) var(--main-color);
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: transparent;
+      border: 1px solid #fff;
+      border-radius: 3px;
+      background: hsl(117, 100%, 82%);
+      &:hover {
+        background: hsl(117, 66%, 74%);
+      }
+    }
+    &__close-btn {
+      display: none;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      img {
+        height: 25px;
+        width: 25px;
+      }
+    }
     &__title {
       font-family: var(--orelega-one-font);
       font-weight: var(--font-regular);
