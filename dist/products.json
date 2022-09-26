@@ -1,0 +1,190 @@
+[
+  {
+    "category": "berries",
+    "name": "Малина замороженная Премиум",
+    "imgSrc": "./img/products/raspberry.jpg",
+    "price": {
+      "oldPrice": "52.00₪",
+      "newPrice": "46.00₪"
+    },
+    "weight": "1 кг"
+  },
+  {
+    "category": "berries",
+    "name": "Голубика замороженная",
+    "imgSrc": "./img/products/blueberry.jpg",
+    "price": "35.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "berries",
+    "name": "Вишня замороженная",
+    "imgSrc": "./img/products/cherry.jpg",
+    "price": "23.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "berries",
+    "name": "Черная смородина замороженная",
+    "imgSrc": "./img/products/blackcurrant.jpg",
+    "price": "35.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "berries",
+    "name": "Красная смородина замороженная",
+    "imgSrc": "./img/products/redcurrant.jpg",
+    "price": "31.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "superfood",
+    "name": "Свекла + витамин В12 замороженная",
+    "imgSrc": "./img/products/beet.jpg",
+    "price": "12.50₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "superfood",
+    "name": "Моринга замороженная органическая",
+    "imgSrc": "./img/products/moringa.jpg",
+    "price": "26.00₪",
+    "weight": "250 г"
+  },
+  {
+    "category": "superfood",
+    "name": "Кейл — кудрявая капуста замороженная",
+    "imgSrc": "./img/products/kale.jpg",
+    "price": "29.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "superfood",
+    "name": "Куркума с имбирем замороженные органические",
+    "imgSrc": "./img/products/turmeric-and-ginger.jpg",
+    "price": "37.00₪",
+    "weight": "100 г"
+  },
+  {
+    "category": "berries",
+    "name": "Микс 5-ти ягод замороженный",
+    "imgSrc": "./img/products/mix-5berries.jpg",
+    "price": "41.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "fruit",
+    "name": "Абрикос замороженный",
+    "imgSrc": "./img/products/apricot.jpg",
+    "price": "26.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "superfood",
+    "name": "Скир —  исландский йогурт",
+    "imgSrc": "./img/products/skyr.jpg",
+    "price": "21.00₪",
+    "weight": "250 г"
+  },
+  {
+    "category": "fruit",
+    "name": "Маракуйя замороженная",
+    "imgSrc": "./img/products/passion-fruit.jpg",
+    "price": "47.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "fruit",
+    "name": "Банан замороженный",
+    "imgSrc": "./img/products/banana.jpg",
+    "price": "39.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "berries",
+    "name": "Облепиха замороженная",
+    "imgSrc": "./img/products/sea-buckthorn.jpg",
+    "price": {
+      "oldPrice": "43.00₪",
+      "newPrice": "39.00₪"
+    },
+    "weight": "1 кг"
+  },
+  {
+    "category": "berries",
+    "name": "Ежевика замороженная",
+    "imgSrc": "./img/products/blackberry.jpg",
+    "price": "32.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "berries",
+    "name": "Клубника замороженная",
+    "imgSrc": "./img/products/strawberry.jpg",
+    "price": "20.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "berries",
+    "name": "Ягода Асаи замороженная",
+    "imgSrc": "./img/products/acai-berry.jpg",
+    "price": "47.00₪",
+    "weight": "300 г"
+  },
+  {
+    "category": "berries",
+    "name": "Крыжовник замороженный",
+    "imgSrc": "./img/products/gooseberry.jpg",
+    "price": "38.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "fruit",
+    "name": "Пюре личи замороженное",
+    "imgSrc": "./img/products/lychee.jpg",
+    "price": "42.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "berries",
+    "name": "Брусника замороженная",
+    "imgSrc": "./img/products/cowberry.jpg",
+    "price": "41.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "fruit",
+    "name": "Финик мускатный",
+    "imgSrc": "./img/products/date-fruit.jpg",
+    "price": "13.00₪",
+    "weight": "500 г"
+  },
+  {
+    "category": "fruit",
+    "name": "Ананас замороженный",
+    "imgSrc": "./img/products/pineapple.jpg",
+    "price": "52.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "berries",
+    "name": "Клюква замороженная",
+    "imgSrc": "./img/products/cranberry.jpg",
+    "price": "37.00₪",
+    "weight": "1 кг"
+  },
+  {
+    "category": "superfood",
+    "name": "Спирулина замороженная",
+    "imgSrc": "./img/products/spirulina.jpg",
+    "price": "27.00₪",
+    "weight": "100 г"
+  },
+  {
+    "category": "fruit",
+    "name": "Манго замороженное",
+    "imgSrc": "./img/products/mango.jpg",
+    "price": "45.00₪",
+    "weight": "1 кг"
+  }
+]

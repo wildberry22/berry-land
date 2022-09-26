@@ -1,4 +1,5 @@
 import menu from './modules/menu.js';
+import tabs from './modules/tabs.js';
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -22,4 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     menu('.navigation__basket', '.products-basket', '.products-basket__close-btn');
   }
 
+  // sorting products by categories and card creation
+  tabs('.products-tabs__list');
 });
