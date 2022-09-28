@@ -447,7 +447,7 @@ body {
   .main::before {
     content: '';
     position: absolute;
-    top: 37%;
+    top: 42%;
     left: 0;
     height: 340px;
     width: 200px;
@@ -593,14 +593,23 @@ body {
     background: #a8ffa3; }
     .products-basket::-webkit-scrollbar-thumb:hover {
       background: #95e891; }
+  .products-basket.empty .products-basket__text-empty {
+    display: block; }
+  .products-basket.empty .products-basket__active-content {
+    display: none; }
+  .products-basket__active-content {
+    display: block; }
   .products-basket__close-btn {
     display: none;
     position: absolute;
     top: 15px;
-    right: 15px; }
+    right: 15px;
+    cursor: pointer; }
     .products-basket__close-btn img {
       height: 25px;
       width: 25px; }
+  .products-basket__text-empty {
+    display: none; }
   .products-basket__title {
     font-family: var(--orelega-one-font);
     font-weight: var(--font-regular);
@@ -849,8 +858,6 @@ body {
     padding-top: 215px; } }
 
 @media screen and (max-width: 900px) {
-  .main {
-    background: url(../img/bg/main-bg.jpg) top 1% center/contain no-repeat; }
   .main-top__title {
     --fz-1: 3.5rem;
     max-width: 560px;
@@ -861,6 +868,8 @@ body {
     --fz-2: 2.5rem; } }
 
 @media screen and (max-width: 768px) {
+  .main {
+    background: url(../img/bg/main-bg.jpg) top 0.5% center/contain no-repeat; }
   .main-top__title {
     --fz-1: 2.8rem;
     max-width: 450px; }
@@ -869,7 +878,7 @@ body {
 
 @media screen and (max-width: 568px) {
   .main {
-    background: url(../img/bg/main-bg-mobile.jpg) top 1% center/contain no-repeat;
+    background: url(../img/bg/main-bg-mobile.jpg) top 0.5% center/contain no-repeat;
     padding-top: 295px; }
   .main-top__title {
     --fz-1: 3.125rem; } }
@@ -899,7 +908,7 @@ body {
 
 @media screen and (max-width: 385px) {
   .main {
-    background: url(../img/bg/main-bg-mobile.jpg) top 1% center/contain no-repeat; }
+    background: url(../img/bg/main-bg-mobile.jpg) top 0.5% center/contain no-repeat; }
   .main-top__title {
     --fz-1: 2.2rem;
     margin-bottom: 45px; }

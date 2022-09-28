@@ -1,5 +1,8 @@
 import menu from './modules/menu.js';
 import tabs from './modules/tabs.js';
+import productCounter from './modules/productCounter.js';
+import addToBasket from './modules/addToBasket.js';
+import removeFromBasket from './modules/removeFromBasket.js';
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -19,10 +22,17 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 100);
 
   // menu
-  if(window.innerWidth < 768) {
+  if(window.innerWidth <= 768) {
     menu('.navigation__basket', '.products-basket', '.products-basket__close-btn');
   }
 
   // sorting products by categories and card creation
   tabs('.products-tabs__list');
+
+  // working buttons on counter
+  productCounter();
+
+  addToBasket();
+
+  removeFromBasket();
 });

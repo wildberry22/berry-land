@@ -136,68 +136,28 @@
 					<div class="products-wrapper">
 						<div class="products-catalog"></div>
 
-						<div class="products-basket">
+						<div class="products-basket empty">
 							<div class="products-basket__close-btn">
 								<img src="./img/close-icon.png" alt="close">
 							</div>
 							<div class="products-basket__title">Корзина</div>
 							<div class="products-basket__content">
-								<!-- <div class="products-basket__text-empty">Корзина пуста</div> -->
-								<ul class="products-basket__goods">
-									<li class="products-basket__goods-item">
-										<button class="products-basket__goods-delete">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M20.25 5.25L3.75 5.25001" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M9.75 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M14.25 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M8.25 2.25H15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M18.75 5.25V19.5C18.75 19.6989 18.671 19.8897 18.5303 20.0303C18.3897 20.171 18.1989 20.25 18 20.25H6C5.80109 20.25 5.61032 20.171 5.46967 20.0303C5.32902 19.8897 5.25 19.6989 5.25 19.5V5.25" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											</svg>												
-										</button>
-										<div class="products-basket__goods-content">
-											<p class="products-basket__goods-title">Свекла + витамин В12 Замороженная</p>
-											<p class="products-basket__goods-price"><span class="amount">5</span> x <span class="price">23.00₪</span></p>
-										</div>
-									</li>
-									<li class="products-basket__goods-item">
-										<button class="products-basket__goods-delete">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M20.25 5.25L3.75 5.25001" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M9.75 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M14.25 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M8.25 2.25H15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M18.75 5.25V19.5C18.75 19.6989 18.671 19.8897 18.5303 20.0303C18.3897 20.171 18.1989 20.25 18 20.25H6C5.80109 20.25 5.61032 20.171 5.46967 20.0303C5.32902 19.8897 5.25 19.6989 5.25 19.5V5.25" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											</svg>												
-										</button>
-										<div class="products-basket__goods-content">
-											<p class="products-basket__goods-title">Моринга замороженная органическая</p>
-											<p class="products-basket__goods-price"><span class="amount">1</span> x <span class="price">26.00₪</span></p>
-										</div>
-									</li>
-									<li class="products-basket__goods-item">
-										<button class="products-basket__goods-delete">
-											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M20.25 5.25L3.75 5.25001" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M9.75 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M14.25 9.75V15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M8.25 2.25H15.75" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-												<path d="M18.75 5.25V19.5C18.75 19.6989 18.671 19.8897 18.5303 20.0303C18.3897 20.171 18.1989 20.25 18 20.25H6C5.80109 20.25 5.61032 20.171 5.46967 20.0303C5.32902 19.8897 5.25 19.6989 5.25 19.5V5.25" stroke="#DD4456" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-											</svg>												
-										</button>
-										<div class="products-basket__goods-content">
-											<p class="products-basket__goods-title">Вишня замороженная</p>
-											<p class="products-basket__goods-price"><span class="amount">2</span> x <span class="price">43.00₪</span></p>
-										</div>
-									</li>
-								</ul>
-								<div class="products-basket__fullprice">
-									<div class="products-basket__fullprice-text">Подытог:</div>
-									<div class="products-basket__fullprice-num">184.00₪</div>
+								<div class="products-basket__text-empty">Корзина пуста</div>
+
+								<div class="products-basket__active-content">
+									<ul class="products-basket__goods">
+										
+									</ul>
+									<div class="products-basket__fullprice">
+										<div class="products-basket__fullprice-text">Подытог:</div>
+										<div class="products-basket__fullprice-num">00.00₪</div>
+									</div>
+									<div class="products-basket__btns">
+										<button class="btn products-basket__btns-pay">Оплатить</button>
+										<button class="btn btn-outline products-basket__btns-openbasket">Корзина</button>
+									</div>
 								</div>
-								<div class="products-basket__btns">
-									<button class="btn products-basket__btns-pay">Оплатить</button>
-									<button class="btn btn-outline products-basket__btns-openbasket">Корзина</button>
-								</div>
+
 							</div>
 						</div>
 					</div>

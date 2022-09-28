@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "category": "berries",
     "name": "Малина замороженная Премиум",
     "imgSrc": "./img/products/raspberry.jpg",
@@ -10,6 +11,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 2,
     "category": "berries",
     "name": "Голубика замороженная",
     "imgSrc": "./img/products/blueberry.jpg",
@@ -17,6 +19,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 3,
     "category": "berries",
     "name": "Вишня замороженная",
     "imgSrc": "./img/products/cherry.jpg",
@@ -24,6 +27,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 4,
     "category": "berries",
     "name": "Черная смородина замороженная",
     "imgSrc": "./img/products/blackcurrant.jpg",
@@ -31,6 +35,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 5,
     "category": "berries",
     "name": "Красная смородина замороженная",
     "imgSrc": "./img/products/redcurrant.jpg",
@@ -38,6 +43,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 6,
     "category": "superfood",
     "name": "Свекла + витамин В12 замороженная",
     "imgSrc": "./img/products/beet.jpg",
@@ -45,6 +51,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 7,
     "category": "superfood",
     "name": "Моринга замороженная органическая",
     "imgSrc": "./img/products/moringa.jpg",
@@ -52,20 +59,23 @@
     "weight": "250 г"
   },
   {
+    "id": 8,
     "category": "superfood",
-    "name": "Кейл — кудрявая капуста замороженная",
+    "name": "Кейл — капуста замороженная",
     "imgSrc": "./img/products/kale.jpg",
     "price": "29.00₪",
     "weight": "1 кг"
   },
   {
+    "id": 9,
     "category": "superfood",
-    "name": "Куркума с имбирем замороженные органические",
+    "name": "Куркума с имбирем замороженные",
     "imgSrc": "./img/products/turmeric-and-ginger.jpg",
     "price": "37.00₪",
     "weight": "100 г"
   },
   {
+    "id": 10,
     "category": "berries",
     "name": "Микс 5-ти ягод замороженный",
     "imgSrc": "./img/products/mix-5berries.jpg",
@@ -73,6 +83,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 11,
     "category": "fruit",
     "name": "Абрикос замороженный",
     "imgSrc": "./img/products/apricot.jpg",
@@ -80,6 +91,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 12,
     "category": "superfood",
     "name": "Скир —  исландский йогурт",
     "imgSrc": "./img/products/skyr.jpg",
@@ -87,6 +99,7 @@
     "weight": "250 г"
   },
   {
+    "id": 13,
     "category": "fruit",
     "name": "Маракуйя замороженная",
     "imgSrc": "./img/products/passion-fruit.jpg",
@@ -94,6 +107,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 14,
     "category": "fruit",
     "name": "Банан замороженный",
     "imgSrc": "./img/products/banana.jpg",
@@ -101,6 +115,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 15,
     "category": "berries",
     "name": "Облепиха замороженная",
     "imgSrc": "./img/products/sea-buckthorn.jpg",
@@ -111,6 +126,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 16,
     "category": "berries",
     "name": "Ежевика замороженная",
     "imgSrc": "./img/products/blackberry.jpg",
@@ -118,6 +134,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 17,
     "category": "berries",
     "name": "Клубника замороженная",
     "imgSrc": "./img/products/strawberry.jpg",
@@ -125,6 +142,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 18,
     "category": "berries",
     "name": "Ягода Асаи замороженная",
     "imgSrc": "./img/products/acai-berry.jpg",
@@ -132,6 +150,7 @@
     "weight": "300 г"
   },
   {
+    "id": 19,
     "category": "berries",
     "name": "Крыжовник замороженный",
     "imgSrc": "./img/products/gooseberry.jpg",
@@ -139,6 +158,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 20,
     "category": "fruit",
     "name": "Пюре личи замороженное",
     "imgSrc": "./img/products/lychee.jpg",
@@ -146,6 +166,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 21,
     "category": "berries",
     "name": "Брусника замороженная",
     "imgSrc": "./img/products/cowberry.jpg",
@@ -153,6 +174,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 22,
     "category": "fruit",
     "name": "Финик мускатный",
     "imgSrc": "./img/products/date-fruit.jpg",
@@ -160,6 +182,7 @@
     "weight": "500 г"
   },
   {
+    "id": 23,
     "category": "fruit",
     "name": "Ананас замороженный",
     "imgSrc": "./img/products/pineapple.jpg",
@@ -167,6 +190,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 24,
     "category": "berries",
     "name": "Клюква замороженная",
     "imgSrc": "./img/products/cranberry.jpg",
@@ -174,6 +198,7 @@
     "weight": "1 кг"
   },
   {
+    "id": 25,
     "category": "superfood",
     "name": "Спирулина замороженная",
     "imgSrc": "./img/products/spirulina.jpg",
@@ -181,6 +206,7 @@
     "weight": "100 г"
   },
   {
+    "id": 26,
     "category": "fruit",
     "name": "Манго замороженное",
     "imgSrc": "./img/products/mango.jpg",
